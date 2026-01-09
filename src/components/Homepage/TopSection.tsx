@@ -138,7 +138,7 @@ const TopSection: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLDivElement | null>(null);
   const handleAddFriend = () => {
-    window.open("https://play.google.com/store/apps/details?id=com.jageup.saerocksaerock", "_blank");
+    window.open("https://bit.ly/3Z1sJZ9", "_blank");
   };
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -169,10 +169,8 @@ const TopSection: React.FC = () => {
         나의 페스티벌을 기록하기 위한 특별한 방법, 새록새록을 통해 더 특별한 하루를 즐겨보세요
       </Description>
       
-      <Button onClick={handleAddFriend}>설문조사 참여하기</Button>
-    <FriendAddText>
-        더 나은 새록새록을 위해 여러분의 의견을 남겨주세요.
-      </FriendAddText></Section>
+      <Button onClick={handleAddFriend}>앱 다운로드하기</Button>
+    </Section>
   );
 };
 
